@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Place your kit's code here -->
     <script src="https://kit.fontawesome.com/8d964559e1.js"></script>
-    <title>chat_clone / chat</title>
+    <title>chat_clone / find</title>
   </head>
 
   <body>
@@ -25,7 +25,7 @@
 
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header__title">Chat</h1>
+        <h1 class="header__title">Find</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
@@ -40,22 +40,60 @@
       </div>
     </header>
 
-    <main class="chats">
-      <ul class="chats__list">
-        <li class="chats_chat chat">
-          <div class="chat__column">
-            <img class="chat__avatar g-avatar" src="image/fancypicture.jpg" />
-            <div class="chat__content">
-              <span class="chat__username">
-                Lynn
-              </span>
-              <span class="chat__preview">
-                Going home
+    <main class="find">
+      <header class="find__header">
+        <ul class="find__header-list">
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-qrcode fa-2x"></i>
+            </span>
+            <span class="header-btn__title">
+              QR Code
+            </span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-user-plus fa-2x"></i>
+            </span>
+            <span class="header-btn__title">
+              add by contact
+            </span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="fas fa-passport fa-2x"></i>
+            </span>
+            <span class="header-btn__title">
+              Add by ID
+            </span>
+          </li>
+          <li class="find__header-btn header-btn">
+            <span class="header-btn__icon">
+              <i class="far fa-envelope fa-2x"></i>
+            </span>
+            <span class="header-btn__title">
+              Invite
+            </span>
+          </li>
+        </ul>
+      </header>
+      <ul class="find__recommend">
+        <h5 class="find__title">
+          Recommended Friends
+        </h5>
+        <li class="find__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="image/fancypicture.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                fancypicture
               </span>
             </div>
           </div>
-          <div class="chat__column">
-            <span class="chat__timestamp">Yesterday</span>
+          <div class="friend__column">
+            <div class="friend__add-btn">
+              <i class="fas fa-user-plus"></i>
+            </div>
           </div>
         </li>
       </ul>
@@ -70,8 +108,8 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
-            <i class="fas fa-comment"></i>
-          </a>
+            <i class="far fa-comment"></i
+          ></a>
         </li>
         <li class="nav__list-item">
           <a href="find.html" class="nav__list-link">

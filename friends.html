@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Place your kit's code here -->
     <script src="https://kit.fontawesome.com/8d964559e1.js"></script>
-    <title>chat_clone / chat</title>
+    <title>chat_clone / friends</title>
   </head>
 
   <body>
@@ -25,14 +25,11 @@
 
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header__title">Chat</h1>
+        <h1 class="header__title">Friends</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
-        </span>
-        <span class="header__icon">
-          <i class="far fa-comment"></i>
         </span>
         <span class="header__icon">
           <i class="fas fa-cog"></i>
@@ -40,37 +37,70 @@
       </div>
     </header>
 
-    <main class="chats">
-      <ul class="chats__list">
-        <li class="chats_chat chat">
-          <div class="chat__column">
-            <img class="chat__avatar g-avatar" src="image/fancypicture.jpg" />
-            <div class="chat__content">
-              <span class="chat__username">
-                Lynn
+    <main class="friends">
+      <header class="friends__header">
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="image/fancypicture.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                LEE
               </span>
-              <span class="chat__preview">
-                Going home
+              <span class="friend__status">
+                fancypicture@naver.com
               </span>
             </div>
           </div>
-          <div class="chat__column">
-            <span class="chat__timestamp">Yesterday</span>
+        </div>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="image/fancypicture.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                Plus Friend
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friends__title">friends 14</h5>
+        <li class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="image/fancypicture.jpg" class="friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">
+                LEE
+              </span>
+              <span class="friend__status">
+                fancypicture@naver.com
+              </span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now.listening">
+              <span>
+                FANCY-twice
+                <i class="fas fa-play"></i>
+              </span>
+            </div>
           </div>
         </li>
       </ul>
     </main>
-
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
+            <i class="fas fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
-            <i class="fas fa-comment"></i>
+            <i class="far fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
